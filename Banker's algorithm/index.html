@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banker's Algorithm</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ <style> body{background:pink;}</style>
+</head>
+<body>
+  <h1>Banker's Algorithm</h1>
+  <div id="input-container">
+    <label for="available-input">Available Resources:</label>
+    <input type="text" id="available-input" placeholder="e.g., 3 3 2">
+    <label for="max-input">Max Resource Needs:</label>
+    <textarea id="max-input" rows="5" placeholder="e.g., 7 5 3&#10;3 2 2&#10;9 0 2"></textarea>
+    <label for="allocated-input">Allocated Resources:</label>
+    <textarea id="allocated-input" rows="5" placeholder="e.g., 0 1 0&#10;2 0 0&#10;3 0 2"></textarea>
+    <button id="run-btn">Run Banker's Algorithm</button>
+  </div>
+  <div id="output-container">
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
